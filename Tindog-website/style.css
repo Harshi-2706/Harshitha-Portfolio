@@ -1,0 +1,55 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.iphonedog{
+  padding-top:5px;
+  padding-bottom:0px;
+}
+
+#testimonial h2{
+  text-align: center;
+}
+.dogcontainer img{
+  height:100px;
+  border-radius:50%;
+}
+#testimonial p{
+  text-align: center;
+}
+
+.dogcontainer{
+  display:flex;
+  justify-content:center;
+}
+
+#pricing h2{
+  text-align: center;
+  margin:50px;
+}
+
